@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>Affiliate | Login</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://jimarket.us/seller/auth/favicon.ico">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="../../public/assets/back-end/css/vendor.min.css">
+    <link rel="stylesheet" href="../../public/assets/back-end/vendor/icon-set/style.css">
+    <!-- CSS Front Template -->
+    <link rel="stylesheet" href="../../public/assets/back-end/css/theme.minc619.css@v=1.0.css">
+    <link rel="stylesheet" href="../../public/assets/back-end/css/toastr.css">
+</head>
+
+<style>
+.civildaily-form {
+  display: block;
+}
+
+.civildaily-form .form-group {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.civildaily-form .form-group input.form-control,
+.civildaily-form .form-group textarea.form-control {
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #F52C8B;
+  outline: none;
+  background: transparent;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  padding: 10px 0;
+  line-height: normal;
+}
+
+.civildaily-form .form-group input[type='text'].form-control:focus,
+.civildaily-form .form-group input[type='email'].form-control:focus,
+.civildaily-form .form-group textarea.form-control:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  
+}
+
+.civildaily-form label {
+  font-family: "Raleway-Bold", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #F52C8B;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  pointer-events: none;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+
+.civildaily-form .form-group input[type='text'].form-control:focus~label,
+.civildaily-form .form-group input[type='email'].form-control:focus~label,
+.civildaily-form .form-group input[type='password'].form-control:focus~label,
+.civildaily-form .form-group textarea.form-control:focus~label,
+.civildaily-form .form-group input[type='text'].filled~label,
+.civildaily-form .form-group input[type='email'].filled~label,
+.civildaily-form .form-group input[type='password'].filled~label,
+.civildaily-form .form-group textarea.filled:focus~label{
+  top: -20px;
+  font-size: 12px;
+   color: #F52C8B;
+}
+
+.btn-outline-warning {
+    color: #f52c8b !important;
+    border-color: #f52c8b !important;
+}
+
+.btn-outline-warning:hover {
+    color: white !important;
+    background-color: #f52c8b !important;
+    border-color: #f52c8b !important;
+}
+</style>
+
+<body>
+<!-- ========== MAIN CONTENT ========== -->
+<main id="content" role="main" class="main">
+    <div class="position-fixed top-0 right-0 left-0 bg-img-hero"
+         style="height: 32rem; background-image: url(https://jimarket.us/public/assets/admin/svg/components/abstract-bg-4.svg);">
+        <!-- SVG Bottom Shape -->
+        <figure class="position-absolute right-0 bottom-0 left-0">
+            <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1921 273">
+                <polygon fill="#fff" points="0,273 1921,273 1921,0 "/>
+            </svg>
+        </figure>
+        <!-- End SVG Bottom Shape -->
+    </div>
+
+    <!-- Content -->
+    <div class="container py-5 py-sm-7">
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+             
+
+        <div class="row justify-content-center">
+            <div class="col-md-7 col-lg-5">
+                <!-- Card -->
+                <div class="card card-lg mb-5">
+                   
+                    <div class="card-body">
+                        <!-- Form -->
+                        <form class="js-validate" action="login.html" method="post">
+                            <input type="hidden" name="_token" value="zKLNhDMLxVut55Htg4J2KuKb5MJc3gcyniX07jEG">                        <div class="text-center">
+                            <div class="mb-5">
+                                <a class="d-flex justify-content-center mb-5" href="../../index.html">
+                                    <img class="z-index-2"  src="../../storage/app/public/company/2021-08-16-611a2241ca39f.png" alt="Logo"
+                                         style="width: 18rem;">
+                                </a>
+                            </div>                            
+                        </div>
+
+                        <div class="civildaily-form">                             
+                            <!-- Form Group -->
+                            <div class="js-form-message form-group">                           
+                                <input type="text" class="form-control form-control-lg" name="user_id" id="signinSrEmail" tabindex="1"  required data-msg="Please enter a valid user id address.">
+                                <label class="input-label" for="phone">Your User ID</label>
+                            </div>                       
+                           
+                            <div class="js-form-message form-group">
+                                <div class="input-group input-group-merge">
+                                    <input type="password" class="js-toggle-password form-control form-control-lg"
+                                           name="password" id="signupSrPassword"
+                                           aria-label="8+ characters required" required
+                                           data-msg="Your password is invalid. Please try again."
+                                           data-hs-toggle-password-options='{
+                                                     "target": "#changePassTarget",
+                                            "defaultClass": "tio-hidden-outlined",
+                                            "showClass": "tio-visible-outlined",
+                                            "classChangeTarget": "#changePassIcon"
+                                            }'>
+                                    <div id="changePassTarget" class="input-group-append">
+                                        <a class="input-group-text" href="javascript:">
+                                            <i id="changePassIcon" class="tio-visible-outlined"></i>
+                                        </a>
+                                    </div>
+
+                                    <label class="input-label" for="signupSrPassword" tabindex="0">
+                                        <span class="d-flex justify-content-between align-items-center">
+                                          Enter Password                                          
+                                        </span>
+                                    </label>
+
+                                </div>
+                            </div>
+                        </div>  
+
+
+                            <div class="form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="termsCheckbox"
+                                           name="remember">
+                                    <label class="custom-control-label text-muted" for="termsCheckbox">
+                                        Remember me
+                                    </label>
+                                    <a style="float: right;" class="input-label-secondary" href="../../customer/auth/recover-password.html">Forgot Password?</a>
+                                </div>
+                            </div>
+                            <!-- End Checkbox -->
+
+                            <button type="submit" class="btn btn-lg btn-block  btn-outline-warning">Login</button>
+                        </form>
+                        <!-- End Form -->
+                    </div>
+                </div>
+                <!-- End Card -->
+
+             
+            </div>
+        </div>
+    </div>
+    <!-- End Content -->
+</main>
+<!-- ========== END MAIN CONTENT ========== -->
+
+
+<!-- JS Implementing Plugins -->
+<script src="../../public/assets/back-end/js/vendor.min.js"></script>
+
+<!-- JS Front -->
+<script src="../../public/assets/back-end/js/theme.min.js"></script>
+<script src="../../public/assets/back-end/js/toastr.js"></script>
+<script type="text/javascript"></script>
+
+
+<script>
+const fields = document.querySelectorAll('.form-control');
+
+for (let field of fields) {
+  field.addEventListener('blur', (event) => {
+    let sel = event.target;
+    if (sel.value) {
+      sel.classList.add('filled');
+    } else {
+      sel.classList.remove('filled');
+    }  
+  });
+}
+</script>`
+
+<!-- JS Plugins Init. -->
+<script>
+    $(document).on('ready', function () {
+        // INITIALIZATION OF SHOW PASSWORD
+        // =======================================================
+        $('.js-toggle-password').each(function () {
+            new HSTogglePassword(this).init()
+        });
+
+        // INITIALIZATION OF FORM VALIDATION
+        // =======================================================
+        $('.js-validate').each(function () {
+            $.HSCore.components.HSValidation.init($(this));
+        });
+    });
+</script>
+
+<!-- IE Support -->
+<script>
+    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="https://jimarket.us/public/assets/admin/vendor/babel-polyfill/polyfill.min.js"><\/script>');
+</script>
+</body>
+</html>
+
